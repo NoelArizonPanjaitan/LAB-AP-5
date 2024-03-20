@@ -7,11 +7,7 @@ int main(){
     
     cout << "a. 3-1 < I || K-5 < 8+2 && L+7 >= 9+3" << endl;
     bool a = (3-1 < I) || (K-5 < 8+2) && (L+7 >= 9+3);
-        if (a == 0){
-            cout << "Hasilnya adalah : " << a << " (False)";
-        } else {
-            cout << "Hasilnya adalah : " << a << "(True)";
-        }; 
+    cout << "Hasilnya adalah : " << a << " (False)";
     cout << endl;
 // Hitungan Manual
     /*  3 - 1 < 2 = False 
@@ -22,11 +18,7 @@ int main(){
 
     cout << "\nb. L%3 > U && (C/U < S || 3*I-K > 0)" << endl;
     bool b = (L%3 > U) && (C/U < S || 3*I-K > 0);
-        if (b == 0){
-            cout << "Hasilnya adalah : " << b << " (False)";
-        } else {
-            cout << "Hasilnya adalah : " << b << "(True)";
-        };
+    cout << "Hasilnya adalah : " << b << " (False)";
     cout << endl;
 // Hitungan Manual
     /* L % 3 > U >>> 1 % 3 > 5 = false
@@ -37,11 +29,7 @@ int main(){
 
     cout << "\nc. I-9 > K OR L+3 < 4*C" << endl;
     bool c = (I - 9 > K) || (L + 3 < 4 * C);
-        if (c == 0){
-            cout << "Hasilnya adalah : " << c << " (False)";
-        } else{
-            cout << "Hasilnya adalah : " << c << " (True)";
-        };
+    cout << "Hasilnya adalah : " << c << " (True)";
     cout << endl;
 // Hitungan Manual
     /* 2 - 9 > 7 = false
