@@ -36,7 +36,7 @@ int main() {
             break;
     }
 
-    cout << "Masukkan jumlah anak : ";
+    cout << "Masukkan jumlah anak :  ";
     cin >> anak;
     
     switch (anak)
