@@ -1,3 +1,8 @@
 {
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "1.C": "cpp",
+    "2.C": "cpp",
+    "No2.C": "cpp"
+  }
 }
