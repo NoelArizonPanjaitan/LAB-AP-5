@@ -57,7 +57,7 @@ int main() {
             }
             break;
         default : 
-            cout << "Error, inputan invalid";
+            cout << "Error, inputan tidak tersedia";
             break;
     }
 
